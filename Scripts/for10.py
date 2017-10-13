@@ -5,7 +5,7 @@
 
 import pyautogui
 users = ['**001', '**002', '**003', '**004', '**005','**006','**007','**008','**009','**010']
-total = len(users) + 4
+total = len(users) + 5
 
 for x in range(total):
     pyautogui.click(86, 975)

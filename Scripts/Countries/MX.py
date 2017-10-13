@@ -41,7 +41,7 @@ for idx, val in enumerate(newUsersMail):
     pyautogui.typewrite(str(random.choice(months)))
     pyautogui.PAUSE=0.50
     pyautogui.hotkey('tab')
-    pyautogui.typewrite(str(random.randint(1990,2004)))
+    pyautogui.typewrite(str(random.randint(1990,2000)))
     pyautogui.PAUSE=0.50
     #Male
     pyautogui.hotkey('tab')
@@ -51,21 +51,16 @@ for idx, val in enumerate(newUsersMail):
     pyautogui.PAUSE=0.50
     pyautogui.hotkey('tab')
     pyautogui.hotkey('space')
-    pyautogui.PAUSE=0.50
-    pyautogui.hotkey('tab')
-    pyautogui.hotkey('space')
-    pyautogui.scroll(-10)
     #To the robot
-    pyautogui.PAUSE=0.50
     pyautogui.hotkey('tab')
-    pyautogui.PAUSE=0.50
-    pyautogui.hotkey('tab')
-    pyautogui.PAUSE=0.50
-    pyautogui.hotkey('tab')
-    pyautogui.PAUSE=0.50
+    pyautogui.PAUSE=1
     pyautogui.hotkey('space')
     #Human Interaction
     pyautogui.PAUSE=20.0
+    pyautogui.hotkey('tab')
+    pyautogui.PAUSE=0.25
+    pyautogui.hotkey('tab')
+    pyautogui.PAUSE=0.25
     pyautogui.hotkey('tab')
     pyautogui.PAUSE=0.25
     pyautogui.hotkey('tab')
