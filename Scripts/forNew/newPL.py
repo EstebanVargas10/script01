@@ -29,6 +29,6 @@ for x in users:
     pyautogui.hotkey('enter')
     pyautogui.PAUSE=2
     pyautogui.doubleClick(48, 407)
-    pyautogui.click(1052, 14)
+    pyautogui.click(900, 22)
     pyautogui.click(1052, 14)
     
