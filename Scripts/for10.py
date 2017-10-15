@@ -11,10 +11,10 @@ for x in range(total):
     pyautogui.click(86, 975)
     pyautogui.PAUSE=1.75
 for x in users:
-    pyautogui.PAUSE=8
+    pyautogui.PAUSE=7
     pyautogui.click(558, 388)
     pyautogui.hotkey('ctrl','a')
-    pyautogui.PAUSE=2
+    pyautogui.PAUSE1.75
     pyautogui.typewrite(x)
     pyautogui.press('tab')
     pyautogui.typewrite('clave123')
@@ -25,8 +25,8 @@ for x in users:
     pyautogui.click(670,909)
     #Shuffle
     pyautogui.click(464, 909)
-    pyautogui.PAUSE=3
+    pyautogui.PAUSE=2.75
     #Playlist
-    pyautogui.doubleClick(50, 470)
+    pyautogui.doubleClick(48, 407)
     pyautogui.click(900, 22)
     pyautogui.click(1052, 14)
