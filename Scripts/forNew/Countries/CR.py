@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+#Update 15.OCT.2017
 #8.OCT.2017
 #Esteban
 
@@ -8,17 +9,16 @@ import random
 
 months = ['j', 'd', 'a', 's', 'm', 'n', 'f','o']
 
-newUsersMail= ['***001@yahoo.es', '***002@yahoo.es', '***003@yahoo.es'
-, '***004@yahoo.es', '***005@yahoo.es', '***006@yahoo.es', '***007@yahoo.es'
-, '***008@yahoo.es', '***009@yahoo.es', '***010@yahoo.es', '***011@yahoo.es'
-, '***012@yahoo.es', '***013@yahoo.es', '***014@yahoo.es', '***015@yahoo.es']
+newUsersMail= ['**001@yahoo.es', '**002@yahoo.es', '**003@yahoo.es'
+, '**004@yahoo.es', '**005@yahoo.es', '**006@yahoo.es', '**007@yahoo.es'
+, '**008@yahoo.es', '**009@yahoo.es', '**010@yahoo.es']
 
 for idx, val in enumerate(newUsersMail):
     pyautogui.click(109,972)
-    pyautogui.PAUSE=10
+    pyautogui.PAUSE=12
     pyautogui.click(301,433)
     pyautogui.PAUSE=1
-    pyautogui.click(378,380)
+    pyautogui.click(370,435)
     pyautogui.PAUSE=1
     #First Email
     pyautogui.typewrite(val)
@@ -83,4 +83,3 @@ for idx, val in enumerate(newUsersMail):
     pyautogui.hotkey('tab')
     pyautogui.PAUSE=12.0
     pyautogui.hotkey('ctrl', 'w')
-    pyautogui.PAUSE=1
