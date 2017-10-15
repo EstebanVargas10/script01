@@ -5,7 +5,7 @@
 
 import pyautogui
 users = ['**001', '**002', '**003', '**004', '**005','**006','**007','**008','**009','**010']
-total = len(users) + 4
+total = len(users) + 2
 
 for x in range(total):
     pyautogui.click(86, 975)
@@ -14,7 +14,7 @@ for x in users:
     pyautogui.PAUSE=7
     pyautogui.click(558, 388)
     pyautogui.hotkey('ctrl','a')
-    pyautogui.PAUSE1.75
+    pyautogui.PAUSE=1.75
     pyautogui.typewrite(x)
     pyautogui.press('tab')
     pyautogui.typewrite('clave123')
