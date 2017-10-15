@@ -27,6 +27,6 @@ for x in users:
     pyautogui.click(464, 909)
     pyautogui.PAUSE=3
     #Playlist
-    pyautogui.doubleClick(48, 407)
+    pyautogui.doubleClick(50, 470)
     pyautogui.click(900, 22)
     pyautogui.click(1052, 14)
